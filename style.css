@@ -1,0 +1,56 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.section{
+	height: 90vh;
+}
+#nav{
+	height: 10vh;
+	background-color: black;
+	position: fixed;
+	z-index: 9999;
+	width: 100vw;
+	text-align: center;
+}
+#nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#nav li{
+	text-align: center;
+	display: inline-block;
+	font: sans-serif;
+	color: white;
+}
+#sec1{
+	background-color: red;
+	padding-top: 10vh;
+}
+#sec2{
+	background-color: blue;
+}
+#sec3{
+	background-color: red;
+	height: 200vh;
+}
+#sec4{
+	background-color: blue;
+}
+#sec5{
+	background-color: red;
+}
+p{
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	font-family:sans-serif;
+	margin: 0px;
+	padding-top: 20vh;
+}
+a {
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+}
